@@ -1,11 +1,5 @@
 {
   "dependencies": {
-    "mssql1": {
-      "secretStore": "AzureAppSettings",
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/crwbookstoredbserver/databases/CRWBookStore_db",
-      "type": "mssql.azure",
-      "connectionId": "ConnectionStrings:IdentityUserDataContextConnection"
-    },
     "mssql2": {
       "secretStore": "AzureAppSettings",
       "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/groupprojec/databases/gravity_books",
