@@ -1,10 +1,14 @@
 {
   "dependencies": {
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "ConnectionStrings:IdentityUserDataContextConnection"
+    },
     "mssql2": {
       "type": "mssql",
       "connectionId": "ConnectionStrings:DefaultConnection"
     },
-    "mssql1": {
+    "mssql3": {
       "type": "mssql",
       "connectionId": "ConnectionStrings:IdentityUserDataContextConnection"
     }
