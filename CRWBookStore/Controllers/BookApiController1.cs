@@ -35,6 +35,6 @@ namespace CRWBookStore.Controllers
     public class BookApiResult
     {
         public string Name { get; set; }
-
+        public decimal Price { get; internal set; }
     }
 }

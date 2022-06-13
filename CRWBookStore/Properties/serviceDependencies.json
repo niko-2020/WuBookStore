@@ -4,7 +4,7 @@
       "type": "mssql",
       "connectionId": "ConnectionStrings:DefaultConnection"
     },
-    "mssql1": {
+    "mssql3": {
       "type": "mssql",
       "connectionId": "ConnectionStrings:IdentityUserDataContextConnection"
     }
