@@ -22,8 +22,7 @@ namespace CRWBookStore.Controllers
             return View();
         }
 
-        /*[Route("Index/privacy")]
-        [Route("~/Privacy")]*/
+        [Route("~/Privacy")]
         public IActionResult Privacy()
         {
             return View();

@@ -6,7 +6,7 @@
       "type": "mssql.azure",
       "connectionId": "ConnectionStrings:DefaultConnection"
     },
-    "mssql3": {
+    "mssql1": {
       "secretStore": "AzureAppSettings",
       "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/groupprojec/databases/CRWBookStore",
       "type": "mssql.azure",
