@@ -23,9 +23,12 @@ namespace CRWBookStore.Models
         [Required(ErrorMessage = "Please enter a city name")]
         public string City { get; set; }
 
+        [StringLength(100)]
         [Required(ErrorMessage = "Please enter a state name")]
         public string State { get; set; }
 
+        [StringLength(5)]
+        [Required(ErrorMessage = "Please enter a zipcode")]
         public string Zip { get; set; }
 
         [Required(ErrorMessage = "Please enter a country name")]

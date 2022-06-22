@@ -14,7 +14,11 @@ namespace CRWBookStore.Controllers
             cart = cartService;
         }
 
-        public ViewResult Checkout() => View(new Order());
+        [HttpGet]
+        public ViewResult Checkout()
+        {
+            return View(new Order());
+        }
 
         [HttpPost]
         public IActionResult Checkout(Order order)
@@ -38,6 +42,13 @@ namespace CRWBookStore.Controllers
         {
             return View();
         }
+
+        /*
+        [HttpPost]
+        public IActionResult PaymentInfo()
+        {
+
+        }*/
 
     }
 }
